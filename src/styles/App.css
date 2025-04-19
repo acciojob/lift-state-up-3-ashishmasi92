@@ -1,1 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.parent{
+    background-color: aquamarine;
+    height: 400px;
+    padding-top:20px ;
+}
+.child1{
+    background-color: blueviolet;
+    height: 100px;
+    margin:auto 40px ;
+}
+.child2{
+    background-color: rgb(131, 207, 30);
+height: 100px;
+margin:auto 40px ;
+}
