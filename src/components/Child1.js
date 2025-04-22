@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-const Child1 = ({func1})=>{
+const Child1 = ({onSelectOption})=>{
 
 
 
@@ -10,7 +10,7 @@ const Child1 = ({func1})=>{
         <h1>Child Component 1</h1>
 
        <button onClick={()=>{
-      return  func1("Option 1")
+      return  onSelectOption("Option 1")
        }}>
         select Option 1
        </button>
