@@ -2,14 +2,18 @@ import React from "react";
 
 
 
-const Child1 = (porps)=>{
+const Child1 = ({func1})=>{
+
+
 
     return <div className="child1">
         <h1>Child Component 1</h1>
 
-        <input type="button" value="Option 1" onClick={(e)=>{
-            porps.func1(e.target.value)
-        }}/>
+       <button onClick={()=>{
+      return  func1("Option 1")
+       }}>
+        select Option 1
+       </button>
     </div>
 }
 
